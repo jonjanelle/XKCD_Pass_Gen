@@ -1,0 +1,68 @@
+#title{
+  text-align: center;
+  margin-top: 0;
+  padding: 1em;
+  font-size: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+body {
+  background-image: url('tweed.png');
+  background-repeat: repeat;
+}
+
+#container {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.rad{
+  margin-right: 1em;
+}
+
+.form {
+  margin: 0 auto;
+  border: 4px solid #ddd;
+  border-radius: 1em;
+  padding: 1em 1em 2em 3em;
+  background-color: white;
+  max-width: 500px;
+  float: right;
+
+}
+
+#pass_img {
+  margin: 0 auto;
+  float: left;
+  border: 4px solid #ddd;
+  width: 510px;
+}
+
+.shadowbox {
+  -webkit-box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 7px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.formdiv{
+  display: block;
+  margin: 0 auto;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
+
+#result_label {
+  clear:both;
+  margin: 0 auto;
+  margin-top: 1em;
+  color: #ddd;
+  font-weight: bold;
+  text-align: center;
+}
+
+#result_well {
+  margin-bottom: 2em;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
